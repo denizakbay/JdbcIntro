@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class dbHelper {
     private String URL_DB = "jdbc:mysql://localhost:3306/world";
     private String Name = "root";
-    private String Password = "123456";
+    private String Password = "984843";
 
     public Connection getConnection() throws SQLException {
 
