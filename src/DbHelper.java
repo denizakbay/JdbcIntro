@@ -2,7 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class dbHelper {
+public class DbHelper {
     private String URL_DB = "jdbc:mysql://localhost:3306/world";
     private String Name = "root";
     private String Password = "984843";

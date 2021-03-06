@@ -3,13 +3,13 @@ import java.util.ArrayList;
 
 public class DataController {
     private Connection connection;
-    private dbHelper helper;
+    private DbHelper helper;
     private Statement statement;
     private ResultSet resultSet;
 
     public DataController() {
 
-        helper = new dbHelper();
+        helper = new DbHelper();
         statement = null;
         resultSet = null;
         try {
